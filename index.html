@@ -14,17 +14,27 @@
 <body>
     <header>
         <nav class="header__nav">
+            <div>&lt;/My<span>Portfolio</span>&gt;</div>
             <ul>
                 <li><a href="#">Начать</a></li>
                 <li><a href="#">Проекты</a></li>
                 <li><a href="#">Навыки</a></li>
                 <li><a href="#">Контакты</a></li>
+                <li>
+                    <label class="switch">
+                        <input class="checkbox" type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </li>
             </ul>
         </nav>
         <div class="container">
             <div class="header__content">
                 <div class="header__text">
-                    <p>Привет, я<br><span>Евгений</span></p>
+                    <div class="header__hello">
+                        <img class="header__hand" src="img/hand/hand-1.svg" alt="1"><p>Привет, я</p>
+                    </div>
+                    <h1>Евгений</h1>
                     <div>Веб-разработчик</div>
                 </div>
                 <div class="header__img">
@@ -125,6 +135,7 @@
             </div>
         </div>
     </div>
+    <script src="js/jquery.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
