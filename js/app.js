@@ -34,16 +34,16 @@ checkbox.onchange = function() {
     }
 }
 
-function animationHand() {
-    let hand = $('.header__hand')
-    if (hand[0].alt === '1'){
-        hand[0].src = 'img/hand/hand-2.svg'
-        hand[0].alt = '2'
-    } else {
-        hand[0].src = 'img/hand/hand-1.svg'
-        hand[0].alt = '1'
-    }
-}
+// function animationHand() {
+//     let hand = $('.header__hand')
+//     if (hand[0].alt === '1'){
+//         hand[0].src = 'img/hand/hand-2.svg'
+//         hand[0].alt = '2'
+//     } else {
+//         hand[0].src = 'img/hand/hand-1.svg'
+//         hand[0].alt = '1'
+//     }
+// }
 
-setInterval(animationHand, 1000)
+// setInterval(animationHand, 1000)
 

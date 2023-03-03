@@ -108,6 +108,35 @@ input:checked + .slider:before {
   background-color: #2C66C3;
 }
 
+@-webkit-keyframes changeColor {
+  0% {
+    rotate: -25deg;
+  }
+  50% {
+    rotate: 25deg;
+  }
+  100% {
+    rotate: -25deg;
+  }
+}
+
+@keyframes changeColor {
+  0% {
+    rotate: -25deg;
+  }
+  50% {
+    rotate: 25deg;
+  }
+  100% {
+    rotate: -25deg;
+  }
+}
+.header__hand {
+  -webkit-animation: changeColor 1.5s infinite;
+          animation: changeColor 1.5s infinite;
+  margin-right: 10px;
+}
+
 .header__content {
   margin-top: 50px;
   display: flex;
